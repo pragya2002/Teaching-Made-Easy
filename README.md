@@ -1,7 +1,5 @@
 # Teaching-Made-Easy-HCI
 
-# teaching-made-easy
-
 # OBJECTIVE
 To solve the problems faced by teachers as well as students during online education/classes.
 
