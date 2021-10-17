@@ -42,7 +42,7 @@ Now this gives value from 0 to 1. this is converted into numeric form (i.e. 0 to
 ##### 2.Grammar
 For this, the number of grammatical mistakes are taken into consideration.
 
-For this an API provided by https://textgears.com is used. Thanks for that :) .
+For this an API provided by https://textgears.com is used.
 
 ##### 3.Qusetion Specific Things (QST)
 Fuzzy Logic is used to give the value of qst.
