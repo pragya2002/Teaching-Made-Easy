@@ -81,7 +81,7 @@ pip install -r requirements.txt
     "messagingSenderId": "add your message Id"
   }
   ```
-  ##### 3. Then go to your Firebase Database console click start in realtime databse (select test mode if popo-up comes i.e. database rules must be true for read     and write both) and import the json file "temp.json" inside temp folder. (In temp.json just for an example three model answer and there answers given by 9           users/students are included. So you can evaluate/test them.)
+  ##### 3. Then go to your Firebase Database console click start in realtime database (select test mode if pop-up comes i.e. database rules must be true for read     and write both) and import the json file "temp.json" inside temp folder. (In temp.json just for an example three model answer and there answers given by 9           users/students are included. So you can evaluate/test them.)
   Now, next step is to run the programs
   
   ##### 4. So, To give the answers you can run Data_set_collector.py file inside the DataSetCollectorFlaskApp directory and can give your answers. It is a simple     flask app which lets users answer the subjective questions.
