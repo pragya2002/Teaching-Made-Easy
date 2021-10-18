@@ -1,4 +1,6 @@
 # Teaching-Made-Easy-HCI
+checkout the main webpage for the project- https://pragya2002.github.io/Teaching-Made-Easy-HCI/
+#
 
 # OBJECTIVE:
 To solve the problems faced by teachers as well as students during online education/classes.
