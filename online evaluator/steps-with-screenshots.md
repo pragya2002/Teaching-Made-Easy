@@ -52,7 +52,7 @@
 <br>
 ## 7) Opening the link just generated and giving the answers followed by the email id and then submit:
 
-![](screenshots/Aspose.Words.c95b4e34-7cda-48ee-90b8-9035cc662319.003.png)
+![](screenshots/image.png)
 <br>
 <br>
 <br>
