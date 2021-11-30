@@ -94,9 +94,8 @@ For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end 
 
 ## Conclusion
 
-Finally we build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
+Finally we built the web-app and deployed which has training accuracy of 82% and test accuracy of 66% .
 
-If failed to access the website and just wanted to see how the webapp works, then visit this link:-  
 
 
 
