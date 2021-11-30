@@ -27,7 +27,7 @@ The solution to this problem is by recognizing facial emotions.
 ## Dataset Information
 
 We have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
-Here is the dataset link:-  https://www.kaggle.com/msambare/fer2013
+
 
 ## Dependencies
 
@@ -97,19 +97,6 @@ For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end 
 Finally we build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
 
 If failed to access the website and just wanted to see how the webapp works, then visit this link:-  
-
-
-## Some Real Life Learning from thing amazing project
-
-•	Never Give Up.
-
-•	Update yourself from your Failures.
-
-•	A Scientist needs to overcome the failures.
-
-•	Try existing all methods to reach the goal.
-
-•	Have Patience and Good things take time to happen.
 
 
 
