@@ -46,7 +46,7 @@ DeepFace is a deep learning facial recognition system created by a research grou
 
 ![](deepface.jpg)
  
-•	The actual emotion in the Picture was ANGRY Face but using DeepFace I found the prediction is HAPPY.
+•	The actual emotion in the Picture was ANGRY Face but using DeepFace we found the prediction is HAPPY.
 
 ### 2)	Using Transfer Learning
 
@@ -55,7 +55,7 @@ Transfer learning (TL) is a research problem in machine learning (ML) that focus
 ![](transfer_learning.jpg)
 
  
-•	I have trained the model with MobileNetV2 and got the accuracy of 94% ,But while testing i got the model was overfitted. I tried to see the prediction of an image and found that the prediction was wrong. 
+•	we have trained the model with MobileNetV2 and got the accuracy of 94% ,But while testing we got the model was overfitted. we tried to see the prediction of an image and found that the prediction was wrong. 
 
 
 ### 3)	Using  Deep Learning CNN
@@ -65,7 +65,7 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 ![](cnn.jpg)
  
 
-•	The training gave the accuracy of 82% and test accuracy of 66%. It seems excellent. So, I save the model and the detection i got from live video was excellent.
+•	The training gave the accuracy of 82% and test accuracy of 66%. It seems excellent. So, we saved the model and the detection we got from live video was excellent.
 
 •	One drawback of the system is the some Disgust faces are showing Neutral .Because less no. of disgust faces are given to train .This may be the reason.
 
@@ -87,15 +87,8 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 
 ## Realtime Local Video Face Detection
 
-I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local.
+We created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local.
 For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
-
-
-## Deployment of Streamlit WebApp in Heroku and Streamlit
-
-In this repository we have made a front end using streamlit. Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
-
-
 
 
 
