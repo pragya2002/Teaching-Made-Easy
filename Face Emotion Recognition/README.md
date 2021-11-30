@@ -2,11 +2,10 @@
 
 ## Introduction
 
-Emotion recognition is the process of identifying human emotion. People vary widely in their accuracy at recognizing the emotions of others. Use of technology to help people with emotion recognition is a relatively nascent research area. Generally, the technology works best if it uses multiple modalities in context. To date, the most work has been conducted on automating the recognition of facial expressions from video, spoken expressions from audio, written expressions from text, and physiology as measured by wearables.
+Emotion recognition is the process of identifying human emotion. People vary widely in their accuracy at recognizing the emotions of others. Use of technology to help people with emotion recognition is a relatively nascent research area. Generally, the technology works best if it uses multiple modalities in context. Till date, the most work has been conducted on automating the recognition of facial expressions from video, spoken expressions from audio, written expressions from text, and physiology as measured by wearables.
 
-Facial expressions are a form of nonverbal communication. Various studies have been done for the classification of these facial expressions. There is strong evidence for the universal facial expressions of seven emotions which include: neutral happy, sadness, anger, disgust, fear, and surprise. So it is very important to detect these emotions on the face as it has wide applications in the field of Computer Vision and Artificial Intelligence. These fields are researching on the facial emotions to get the sentiments of the humans automatically.
+Facial expressions are a form of non-verbal communication. Various studies have been done for the classification of these facial expressions. There is strong evidence for the universal facial expressions of seven emotions which include: neutral happy, sadness, anger, disgust, fear, and surprise. So it is very important to detect these emotions on the face as it has wide applications in the field of Computer Vision and Artificial Intelligence. These fields are researching on the facial emotions to get the sentiments of the humans automatically.
 
-Here is the presentation link: https://github.com/soumya1999rta/Face-Emotion-Recognition/blob/main/Capstone%20Project_DL%20n%20MLE_%20Face_Emotion_Recognition_Soumya_Ranjan_Mishra.pdf.pdf
 
 ## Problem Statement
 
@@ -22,12 +21,12 @@ While digital platforms have limitations in terms of physical surveillance but i
 
 Deep learning backed system not only solves the surveillance issue, but it also removes the human bias from the system, and all information is no longer in the teacher’s brain rather translated in numbers that can be analyzed and tracked.
 
-I will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
+We will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
 The solution to this problem is by recognizing facial emotions.
 
 ## Dataset Information
 
-I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
+We have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 Here is the dataset link:-  https://www.kaggle.com/msambare/fer2013
 
 ## Dependencies
@@ -70,9 +69,9 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 
 •	One drawback of the system is the some Disgust faces are showing Neutral .Because less no. of disgust faces are given to train .This may be the reason.
 
-•	I thought it was a good score should improve the score.
+•	We thought it was a good score should improve the score.
 
-•	Thus I decided that I will deploy the model.
+•	Thus we decided that we will deploy the model.
 
 ## Loss & Accuracy Plot
 
@@ -84,7 +83,6 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 
 
 
-To See the  Training and Testing python file follow this link: https://github.com/soumya1999rta/Face-Emotion-Recognition/blob/main/Soumya_Ranjan_Mishra_Live_Class_Monitoring_System_(Face_Emotion_Recognition)_Capstone_Project%20(1).ipynb
 
 
 ## Realtime Local Video Face Detection
@@ -95,23 +93,17 @@ For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end 
 
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 
-In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
-
-Heroku Link:- https://face-emotion-recognition-somya.herokuapp.com
+In this repository we have made a front end using streamlit. Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
 
 
-Streamlit Link:- https://share.streamlit.io/soumya1999rta/face-emotion-recognition/main/app.py
-
-
-[ N.B:- If the website didn’t open , then try refreshing the page 2 to 3 times.]
 
 
 
 ## Conclusion
 
-Finally I build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
+Finally we build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
 
-If failed to access the website and just wanted to see how the webapp works, then visit this link:-  https://github.com/soumya1999rta/Face-Emotion-Recognition/blob/main/Face_Emotion_Recognition_Local_Demo_Video.mp4
+If failed to access the website and just wanted to see how the webapp works, then visit this link:-  
 
 
 ## Some Real Life Learning from thing amazing project
