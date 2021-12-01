@@ -69,7 +69,7 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 
 •	One drawback of the system is the some Disgust faces are showing Neutral .Because less no. of disgust faces are given to train .This may be the reason.
 
-•	We thought it was a good score should improve the score.
+•	We thought it was a good score and should improve the score.
 
 •	Thus we decided that we will deploy the model.
 
