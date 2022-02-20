@@ -1,5 +1,5 @@
 # Teaching-Made-Easy
-checkout the main webpage for the project- https://pragya2002.github.io/Teaching-Made-Easy-HCI/
+checkout the main webpage for the project- https://pragya2002.github.io/Teaching-Made-Easy/
 #
 
 # OBJECTIVE:
